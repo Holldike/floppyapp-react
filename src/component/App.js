@@ -1,14 +1,16 @@
 import './App.sass';
 import BurgerMenu from './BurgerMenu/BurgerMenu';
 import Header from './Header/Header';
-import Content from './Content/Content';
+import ContentList from './ContentList';
 
 function App() {
 	return (
 		<>
 			<Header/>
 			<BurgerMenu/>
-			<Content/>
+			<div className="content-box">
+				<ContentList/>
+			</div>
 		</>
 	);
 
