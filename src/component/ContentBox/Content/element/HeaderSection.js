@@ -4,7 +4,9 @@ import './HeaderSection.sass';
 class HeaderSection extends React.Component {
     render() {
         return (
-            <h2><span>{this.props.main}</span><br/>{this.props.sub}</h2>
+            <div className="header-section">
+                <h2><span>{this.props.main}</span><br/>{this.props.sub}</h2>
+            </div>
         );
 
     }

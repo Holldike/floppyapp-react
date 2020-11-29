@@ -1,8 +1,17 @@
-h2
-  text-transform: uppercase
-  margin-bottom: 20px
-  font-weight: 900
-  font-size: 40px
+.header-section
+  h2
+    text-transform: uppercase
+    margin-bottom: 20px
+    font-weight: 900
+    font-size: 40px
 
-  span
-    font-size: 2em
+    span
+      font-size: 2em
+
+  @media (max-width: 768px)
+    h2
+      font-size: 30px
+
+  @media (max-width: 480px)
+    h2
+      font-size: 17px

@@ -1,4 +1,5 @@
 import React from 'react';
+import './ContactForm.sass';
 
 class ContactForm extends React.Component {
     render() {

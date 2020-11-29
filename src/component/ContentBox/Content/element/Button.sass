@@ -1,5 +1,5 @@
 .buttons
-  margin-top: 15px
+  margin: 20px 0
 
   .button
     text-transform: uppercase
@@ -7,7 +7,7 @@
     background: #7dace4
     letter-spacing: 1px
     padding: 8px 15px
-    margin-top: 20px
+    margin: 0 5px 5px 0
     font-weight: 600
     font-size: 14px
     cursor: pointer
@@ -30,3 +30,30 @@
     .arrow-right
       +arrow(url(../../../../img/arrow-right.png))
       margin-left: 5px
+
+    @media (max-width: 768px)
+      font-size: 12px
+
+      .arrow-right
+        width: 17px
+        height: 17px
+        top: 4px
+
+      .arrow-left
+        width: 17px
+        height: 17px
+        top: 4px
+
+    @media (max-width: 480px)
+      font-size: 11px
+      width: 150px
+
+      .arrow-right
+        width: 16px
+        height: 16px
+        top: 3px
+
+      .arrow-left
+        width: 15px
+        height: 15px
+        top: 3px
