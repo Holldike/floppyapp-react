@@ -1,0 +1,32 @@
+.buttons
+  margin-top: 15px
+
+  .button
+    text-transform: uppercase
+    display: inline-block
+    background: #7dace4
+    letter-spacing: 1px
+    padding: 8px 15px
+    margin-top: 20px
+    font-weight: 600
+    font-size: 14px
+    cursor: pointer
+    color: #000000
+    border-radius: 100px
+
+    =arrow($url)
+      background: $url
+      background-size: cover
+      display: inline-block
+      position: relative
+      height: 20px
+      width: 20px
+      top: 5px
+
+    .arrow-left
+      +arrow(url(../../../../img/arrow-left.png))
+      margin-right: 5px
+
+    .arrow-right
+      +arrow(url(../../../../img/arrow-right.png))
+      margin-left: 5px
